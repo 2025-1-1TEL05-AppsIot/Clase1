@@ -44,8 +44,8 @@
     </ScrollView>
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="298dp"
+        android:layout_height="150dp"
         android:layout_marginTop="2dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,20 +57,20 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Button 1" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFC107"
-            android:text="Button" />
+            android:text="Button 2" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Button 3" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
